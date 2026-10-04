@@ -1,72 +1,57 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AKÇINAR GRUP</title>
-
-<style>
-body{
-margin:0;
-background:#fff;
-font-family:Arial,Helvetica,sans-serif;
-display:flex;
-justify-content:center;
-align-items:center;
-height:100vh;
-}
-
-.kutu{
-text-align:center;
-width:90%;
-max-width:700px;
-}
-
-h1{
-font-size:55px;
-margin-bottom:35px;
-font-weight:bold;
-color:#222;
-}
-
-input{
-width:100%;
-padding:18px;
-font-size:22px;
-border:1px solid #ddd;
-border-radius:30px;
-outline:none;
-}
-
-button{
-margin-top:20px;
-padding:15px 35px;
-font-size:20px;
-background:#1a73e8;
-color:white;
-border:none;
-border-radius:30px;
-cursor:pointer;
-}
-
-button:hover{
-background:#1558b0;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akçınar Hafriyat & İnşaat</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #121212; color: #fff; line-height: 1.6; }
+        header { background: linear-gradient(135deg, #1f1f1f, #000); padding: 50px 20px; text-align: center; border-bottom: 3px solid #ffb400; }
+        header h1 { font-size: 2.5rem; color: #ffb400; letter-spacing: 2px; }
+        header p { font-size: 1.1rem; color: #ccc; margin-top: 10px; }
+        .container { max-width: 900px; margin: 30px auto; padding: 0 20px; }
+        .card { background: #1e1e1e; padding: 25px; border-radius: 10px; margin-bottom: 20px; border-left: 4px solid #ffb400; box-shadow: 0 4px 10px rgba(0,0,0,0.5); }
+        .card h2 { color: #ffb400; margin-bottom: 15px; }
+        ul { list-style: none; }
+        ul li { padding: 8px 0; border-bottom: 1px solid #333; }
+        ul li:last-child { border-bottom: none; }
+        footer { text-align: center; padding: 20px; background: #0a0a0a; color: #777; font-size: 0.9rem; margin-top: 40px; }
+    </style>
 </head>
-
 <body>
 
-<div class="kutu">
-<h1>AKÇINAR GRUP</h1>
+    <header>
+        <h1>AKÇINAR HAFRİYAT</h1>
+        <p>Güvenilir, Hızlı ve Profesyonel Çözümler</p>
+    </header>
 
-<form action="https://www.google.com/search" method="GET">
-<input type="text" name="q" placeholder="AKÇINAR GRUP ile ara..." required>
-<br>
-<button type="submit">ARA</button>
-</form>
+    <div class="container">
+        <div class="card">
+            <h2>Hakkımızda</h2>
+            <p>Akçınar Hafriyat olarak alanında uzman kadromuz ve güçlü iş makinesi parkurumuzla hafriyat, kazı, bina yıkımı ve çevre düzenleme işlerinizde kaliteli hizmet sunuyoruz.</p>
+        </div>
 
-</div>
+        <div class="card">
+            <h2>Hizmetlerimiz</h2>
+            <ul>
+                <li>Tüm Bina ve Arazi Kazı İşleri</li>
+                <li>Temel Hafriyatı ve Dolgu İşlemleri</li>
+                <li>Bina Yıkımı ve Moloz Taşıma</li>
+                <li>İş Makinesi Kiralama</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>İletişim</h2>
+            <p>Projeleriniz ve fiyat teklifleri için bizimle iletişime geçebilirsiniz.</p>
+            <p style="margin-top: 10px; font-weight: bold; color: #ffb400;">Telefon: 05XX XXX XX XX</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Akçınar Grup. Tüm Hakları Saklıdır.</p>
+    </footer>
 
 </body>
 </html>
